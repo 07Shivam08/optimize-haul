@@ -158,7 +158,7 @@ export default function RakeOptimizer() {
               <div className="space-y-4">
                 <div className="flex items-center gap-2 p-3 rounded-lg bg-success/10 border border-success/20">
                   <div className="h-2 w-2 rounded-full bg-success animate-pulse" />
-                  <span className="text-sm font-medium text-success-foreground">Optimization Successful</span>
+                  <span className="text-sm font-medium text-foreground">Optimization Successful</span>
                 </div>
 
                 <div className="space-y-3">

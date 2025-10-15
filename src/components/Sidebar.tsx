@@ -10,6 +10,7 @@ import {
   Settings,
   TrendingUp
 } from "lucide-react";
+import { ThemeToggle } from "./ThemeToggle";
 
 const navigation = [
   { name: "Dashboard", href: "/", icon: LayoutDashboard },
@@ -26,14 +27,15 @@ export const Sidebar = () => {
 
   return (
     <div className="flex h-screen w-64 flex-col bg-card border-r border-border">
-      <div className="flex h-16 items-center justify-center border-b border-border px-6">
+      <div className="flex h-16 items-center justify-between border-b border-border px-4">
         <div className="flex items-center gap-2">
           <TrendingUp className="h-8 w-8 text-primary" />
           <div>
-            <h1 className="text-lg font-bold text-foreground">Smart Rake</h1>
-            <p className="text-xs text-muted-foreground">Optimizer AI</p>
+            <h1 className="text-lg font-bold text-foreground">VitranSetu</h1>
+            <p className="text-xs text-muted-foreground">Logistics AI</p>
           </div>
         </div>
+        <ThemeToggle />
       </div>
       
       <nav className="flex-1 space-y-1 px-3 py-4">
